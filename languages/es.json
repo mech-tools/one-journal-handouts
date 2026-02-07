@@ -1,0 +1,27 @@
+{
+  "one-journal-handouts": {
+    "base.validate": "Validar",
+    "settings": {
+      "gm-journal-name": "Diario con las ayudas (world)",
+      "gm-journal-hint": "Es el diario que contiene todas las ayudas que quieres compartir con los jugadores. ⚠️ No debes compartir este diario con los jugadores.",
+      "players-journal-name": "Diario de los jugadores (world)",
+      "players-journal-hint": "Es el diario donde los jugadores podrán ver todas las ayudas que comparta el GM. ⚠️ No te olvides de compartir este diario con los jugadores.",
+      "sharing-mode-name": "Modo de compartición (world)",
+      "sharing-mode-hint": "El \"modo de compartición\" te permite definir qué le pasa al diario una vez lo has compartido. \"Por defecto\": el diario se deja como estaba. \"Duplicar\": el diario se borra del registro y se duplica en otro registro (definido más abajo). \"Eliminar\": el diario se borra.",
+      "duplicated-journal-name": "Diario de duplicados (world)",
+      "duplicated-journal-hint": "Es el diario donde se duplican todas las ayudas. ⚠️ Solo se aplica si se selecciona \"Duplicated\" como \"Modo de compartición\".",
+      "open-page-name": "Abrir página al GM (world)",
+      "open-page-hint": "Si se habilita, cuando se comparte una ayuda, la página nueva que se crea también se abrirá para el GM.",
+      "blacklist": {
+        "label": "Lista negra de usuarios",
+        "name": "Configurar lista negra",
+        "hint": "Excluir usuarios de auto-abrir el diario.",
+        "description": "Marca las casillas junto a los jugadores que no quieres que se les abra automáticamente el diario."
+      }
+    },
+    "share-with-players": "Compartir página (One journal)",
+    "no-players-journal": "El diario de los jugadores no existe.",
+    "no-duplicated-journal": "El diario de duplicados no existe.",
+    "successful": "La página del diario ha sido compartida con los jugadores."
+  }
+}
